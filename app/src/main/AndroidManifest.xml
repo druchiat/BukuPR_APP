@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BukuPR_App">
         <activity
+            android:name=".BukuPrActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
