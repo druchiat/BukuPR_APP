@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/drawable/ic_back.xml" value="0.2755208333333333" />
         <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/drawable/ic_search.xml" value="0.2755208333333333" />
         <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/drawable/style_get_started_button.xml" value="0.2755208333333333" />
-        <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/layout/activity_buku_pr.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/layout/activity_buku_pr.xml" value="0.4" />
         <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/AndroidStudio_SDK/Projects/app/src/main/res/layout/activity_tugas.xml" value="0.264" />
       </map>
     </option>
   </component>
