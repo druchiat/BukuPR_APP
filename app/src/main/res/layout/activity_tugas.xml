@@ -10,10 +10,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/llTopBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -21,30 +25,29 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btBackToBukuPr"
-                android:background="@drawable/ic_back"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:gravity="center"/>
+                android:background="@drawable/ic_back"
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/tvNamaBukuPrSmall"
-                android:paddingTop="5dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="4"
+                android:paddingTop="5dp"
                 android:singleLine="true"
                 android:textColor="@color/white"
-                android:textSize="20sp"
-                />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tvEdit"
-                android:paddingTop="5dp"
-                android:textAlignment="center"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingTop="5dp"
                 android:text="Edit"
+                android:textAlignment="center"
                 android:textColor="@color/grey"
                 android:textSize="20sp" />
 
@@ -74,15 +77,17 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="10dp">
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/llTopBar"
+            app:spanCount="2" />
 
 
-
-        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
