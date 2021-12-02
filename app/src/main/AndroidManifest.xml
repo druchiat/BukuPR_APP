@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BukuPR_App">
         <activity
+            android:name=".Create_BukuPR"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
