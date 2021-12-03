@@ -6,4 +6,7 @@
     <string name="LOGIN">LOGIN</string>
     <string name="dont_have_account">Don\'t have an account?</string>
     <string name="click_here">Click here</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="SIGNUP">SIGN UP</string>
 </resources>
